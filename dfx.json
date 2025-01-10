@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "slotm_backend": {
+      "main": "src/slotm_backend/main.mo",
+      "type": "motoko"
+    },
+    "slotm_frontend": {
+      "dependencies": [
+        "slotm_backend"
+      ],
+      "source": [
+        "src/slotm_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "slotm_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
