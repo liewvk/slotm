@@ -1,4 +1,4 @@
-# `Slotmachine`
+# `Slot Machine`
 
 This is a slot machine created with ReactJS as frontend and Motoko as backend in ICP.
 
